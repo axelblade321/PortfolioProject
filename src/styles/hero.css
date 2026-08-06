@@ -1,0 +1,27 @@
+.hero {
+    min-height: 75vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-intro {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    color: #555;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.hero-description {
+    max-width: 600px;
+}
