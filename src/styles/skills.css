@@ -6,9 +6,18 @@
 }
 
 .skill-card{
-    background:white;
-    border:1px solid #ddd;
-    border-radius:8px;
+    min-height: 230px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: rgba(255,255,255,.05);
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius:16px;
+
     padding:20px;
 }
 
@@ -17,9 +26,25 @@
 }
 
 .skill-card ul{
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-top:15px;
+
     list-style:none;
 }
 
 .skill-card li{
-    margin-bottom:8px;
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.10);
+
+    padding:6px 14px;
+
+    border-radius:999px;
+
+    color:#E2E8F0;
 }
