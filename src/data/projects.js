@@ -4,7 +4,7 @@ const projects = [
     description:
       "A web application simialr to Udemy for selling class online. This project is a final project for my college.",
     tech: "MongoDB • ExpressJS • React • Node.js",
-    github: "#",
+    github: "https://drive.google.com/drive/folders/1uA_yvQAc79KrWbbq-DCk_1M6EcN9EBCj?usp=sharing",
     demo: "#"
   },
 ];
